@@ -1,0 +1,8 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.d.ts", "src/components/CenterUser.tsx", "src/appstate/error/map/OfflineMap.tsx", "src/components/navigation/HomeNavigation.tsx", "src/appstate/error/location/ErrorHandling.jsx", "src/components/mapFeatures/routing.tsx", "src/components/mapFeatures/routingdistance.tsx", "src/appstate/error/location/ErrorHandling.tsx"]
+}
